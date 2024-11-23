@@ -17,12 +17,6 @@ Este proyecto es un bot de Discord modular y extensible que ofrece múltiples fu
 - Node.js v18 o superior
 - Docker (opcional, para ejecutar en contenedores)
 - Token del bot de Discord
-- Un servidor de Discord con los roles configurados para la funcionalidad de medallero:
-  - 🥇 Líder
-  - 🥈 Subcampeón
-  - 🥉 Tercer Lugar
-  - ⭐ Finalista
-  - 💪 Participante Destacado
 
 ---
 
@@ -96,6 +90,13 @@ Este proyecto es un bot de Discord modular y extensible que ofrece múltiples fu
   - Razón: Falta el `guildId` o el `leaderboard` no es válido.
 - **Código**: `500 Internal Server Error`
   - Razón: Error al asignar roles o al conectarse al servidor.
+**Pre-requisito**:
+  - Un servidor de Discord con los roles configurados para la funcionalidad de medallero:
+  - 🥇 Líder
+  - 🥈 Subcampeón
+  - 🥉 Tercer Lugar
+  - ⭐ Finalista
+  - 💪 Participante Destacado
 
 ---
 
