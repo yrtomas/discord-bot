@@ -95,7 +95,6 @@ Este proyecto es un bot de Discord modular y extensible que ofrece múltiples fu
   - 🥇 Líder
   - 🥈 Subcampeón
   - 🥉 Tercer Lugar
-  - ⭐ Finalista
   - 💪 Participante Destacado
 
 ---
