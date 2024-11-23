@@ -19,7 +19,7 @@ module.exports = (app, bot) => {
 
                 // Asignar roles según la posición
                 if (position === 1) {
-                    role = guild.roles.cache.find(r => r.name === '🥇 Campeón');
+                    role = guild.roles.cache.find(r => r.name === '🥇 Líder');
                 } else if (position === 2) {
                     role = guild.roles.cache.find(r => r.name === '🥈 Subcampeón');
                 } else if (position === 3) {
@@ -32,7 +32,7 @@ module.exports = (app, bot) => {
 
                 if (role) {
                     // Elimina roles previos relacionados con el medallero antes de asignar el nuevo
-                    const leaderboardRoles = ['🥇 Campeón', '🥈 Subcampeón', '🥉 Tercer Lugar', '⭐ Finalista', '💪 Participante Destacado'];
+                    const leaderboardRoles = ['🥇 Líder', '🥈 Subcampeón', '🥉 Tercer Lugar', '⭐ Finalista', '💪 Participante Destacado'];
                     for (const r of leaderboardRoles) {
                         const existingRole = guild.roles.cache.find(role => role.name === r);
                         if (existingRole && member.roles.cache.has(existingRole.id)) {
