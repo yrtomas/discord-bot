@@ -76,7 +76,7 @@ Este proyecto es un bot de Discord modular y extensible que ofrece múltiples fu
 {
   "guildId": "string",          // ID del servidor de Discord
   "leaderboard": [
-    { "userId": "string" }      // ID del usuario en Discord
+    { "userId": "string" }      // ID del usuario en Discord, enviar VACIO si el user no tiene su discord asociado asu perfil en FreedomAcademy.app
   ]
 }
 ```

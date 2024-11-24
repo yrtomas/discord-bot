@@ -12,6 +12,12 @@ module.exports = (app, bot) => {
             // Iterar por cada posición en el leaderboard
             for (let i = 0; i < leaderboard.length; i++) {
                 const userId = leaderboard[i].userId;
+
+                if (!userId || userId.trim() === '') {
+                    console.log(`Advertencia: userId inválido en la posición ${i} del leaderboard.`);
+                    continue;
+                }
+
                 const position = i + 1; // Posición en el leaderboard
 
                 const member = await guild.members.fetch(userId);
