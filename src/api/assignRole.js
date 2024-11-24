@@ -14,7 +14,7 @@ module.exports = (app, bot) => {
                 const userId = leaderboard[i].userId;
 
                 if (!userId || userId.trim() === '') {
-                    console.log(`Advertencia: userId inválido en la posición ${i} del leaderboard.`);
+                    console.log(`La posición ${i} del leaderboard no posee userId.`);
                     continue;
                 }
 
